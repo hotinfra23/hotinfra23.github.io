@@ -930,6 +930,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
+#venue .schedule-item p a {
+  color: #152b79;
+}
+#venue .schedule-item p a:hover {
+  color: #FF552E;
+}
+
 #venue .tab-pane {
   transition: ease-in-out 0.2s;
   padding-bottom: 30px;
