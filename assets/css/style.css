@@ -893,8 +893,8 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 #venue .schedule-item .speaker {
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   overflow: hidden;
   border-radius: 50%;
   float: left;
@@ -914,7 +914,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #venue .schedule-item h4 span {
   font-style: italic;
-  color: #19328e;
+  color: black; /* #19328e; */
   font-weight: normal;
   font-size: 16px;
 }
