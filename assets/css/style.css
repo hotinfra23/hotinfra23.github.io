@@ -790,8 +790,8 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 #schedule .schedule-item .speaker {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
   border-radius: 50%;
   float: left;
@@ -818,6 +818,15 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   color: #152b79;
   margin-bottom: 0;
+}
+#schedule .schedule-item p a {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
+}
+
+#schedule .schedule-item p a:hover {
+  color: #FF552E;
 }
 
 /*--------------------------------------------------------------
