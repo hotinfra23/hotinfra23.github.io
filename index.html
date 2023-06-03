@@ -293,14 +293,38 @@
                   <li>
                     <span>To virtualize or not to virtualize AI Infrastructure: A perspective</span>
                     <p>Seetharami Seelam, Apoorve Mohan, Ming-Hung Chen, IHsin Chung (IBM Research)</p>
+                    <div class="abstract">
+                      <p>
+                        <b>Abstract:</b> Modern data-driven applications (such as AI training, Inference) are powered by Artificial Intelligence (AI) infrastructure. AI infrastructure is often available as bare-metal machines (BMs) in on-premise clusters but as virtual machines (VMs) in most public clouds. Why is this dichotomy of BMs on-prem and VMs in public clouds? What would it take to deploy VMs on AI Systems while delivering baremetal-equivalent performance? We will answer these questions based on experiences building and operationalizing a large-scale AI system called Vela in IBM Cloud. Vela is built on open-source Linux KVM and QEMU technologies where we are able to deliver near-baremetal (within 5% of BM) performance inside VMs. VM-based AI infrastructure not only affords BM performance but also provides cloud characteristics such as elasticity and flexibility in infrastructure management.
+                      </p>
+                    </div>
                   </li>
                   <li>
                     <span>Hardware-Assisted Virtualization for Neural Processing Units</span>
                     <p>Yuqi Xue, Yiqi Liu (UIUC); Lifeng Nai (Google); Jian Huang (UIUC)</p>
+                    <div class="abstract">
+                      <p>
+                        <b>Abstract:</b> Modern cloud platforms have deployed neural processing units (NPUs) to meet the increasing demand for machine learning (ML) services. However, the current way of using NPUs in cloud platforms suffers from either low resource utilization or poor isolation between multi-tenant application services due to the lack of system virtualization support for fine-grained resource sharing.
+                      </p>
+                      <p>
+                        In this paper, we investigate the system virtualization techniques for NPUs across the entire hardware and software stack. In the hardware stack, we design a hardware-assisted multi-tenant NPU for fine-grained resource sharing and isolation. It employs an operator scheduler on the NPU core to enable concurrent operator executions and flexible priority-based resource scheduling. In the software stack, we propose a flexible vNPU abstraction. We leverage this abstraction to design the vNPU allocation, mapping, and scheduling policies to maximize resource utilization while guaranteeing both performance and security isolation for vNPU instances at runtime.
+                      </p>
+                    </div>
                   </li>
                   <li>
                     <span>General-purpose processing on AI/ML accelerators</span>
                     <p>Yunan Zhang, Yu-Ching Hu, Hung-Wei Tseng (University of California, Riverside)</p>
+                    <div class="abstract">
+                      <p>
+                        <b>Abstract:</b> The emergence of novel hardware accelerators has powered the tremendous growth of machine learning in recent years. These accelerators deliver incomparable performance gains in processing high-volume matrix operators, particularly matrix multiplication, a core component of neural network training and inference.
+                      </p>
+                      <p>
+                        In this work, we explored the direction of using AI/ML accelerators for applications beyond AI/ML. We first examine opportunities of accelerating database systems using NVIDIA's Tensor Core Units (TCUs). We present TCUDB, a TCU-accelerated query engine processing a set of query operators including natural joins and group-by aggregates as matrix operators within TCUs. Matrix multiplication was considered inefficient in the past; however, this strategy has remained largely unexplored in conventional GPU-based databases, which primarily rely on vector or scalar processing. We demonstrate the significant performance gain of TCUDB in a range of real-world applications including entity matching, graph query processing, and matrix-based data analytics. TCUDB achieves up to 288x speedup compared to a baseline GPU-based query engine.
+                      </p>
+                      <p>
+                        We then extended AI/ML accelerators with more operations in support of more workloads. We propose SIMD<sup>2</sup>, a new programming paradigm to support generalized matrix operations with a semiring-like structure. SIMD<sup>2</sup> instructions accelerate eight more types of matrix operations, in addition to matrix multiplications. Since SIMD<sup>2</sup> instructions resemble a matrix-multiplication instruction, we are able to build SIMD<sup>2</sup> architecture on top of any MXU architecture with minimal modifications. SIMD<sup>2</sup> provides up to 38.59x speedup and more than 10.63x on average over optimized CUDA programs, with only 5% of full-chip area overhead.
+                      </p>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -321,14 +345,23 @@
                   <li>
                     <span>Exploring Memory Expansion Designs for Training Mixture-of-Experts Models</span>
                     <p>Taekyung Heo (Georgia Institute of Technology); Saeed Rashidi (Hewlett Packard Enterprise); Changhai Man, Divya Kiran Kadiyala, William Won (Georgia Institute of Technology); Sudarshan Srinivasan, Midhilesh Elavazhagan, Madhu Kumar (Intel); Alexandros Daglis, Tushar Krishna (Georgia Institute of Technology)
+                    <p class="abstract">
+                      <b>Abstract:</b> 
+                    </p>
                   </li>
                   <li>
                     <span>Memory Disaggregation: Open Challenges in the Era of CXL</span>
                     <p>Hasan Al Maruf, Mosharaf Chowdhury (University of Michigan)</p>
+                    <p class="abstract">
+                      <b>Abstract:</b> 
+                    </p>
                   </li>
                   <li>
                     <span>On the Discontinuation of Persistent Memory: Looking Back to Look Forward</span>
                     <p>Tianxi Li (The Ohio State University); Yang Wang (Meta / The Ohio State University); Xiaoyi Lu (University of California, Merced)</p>
+                    <p class="abstract">
+                      <b>Abstract:</b> 
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -371,14 +404,23 @@
                   <li>
                     <span>Giving Old Servers New Life at Hyperscale</span>
                     <p>Jaylen Wang (Carnegie Mellon University); Udit Gupta (Cornell University); Akshitha Sriraman (Carnegie Mellon University / Google)</p>
+                    <p class="abstract">
+                      <b>Abstract:</b> 
+                    </p>
                   </li>
                   <li>
                     <span>Sidecars on the Central Lane: Impact of Network Proxies on Microservices</span>
                     <p>Prateek Sahu, Shijia Wei, Lucy Zheng, Marco Bueso (University of Texas at Austin); Neeraja J. Yadwadkar (University of Texas at Austin, VMware Research); Mohit Tiwari (University of Texas at Austin)</p>
+                    <p class="abstract">
+                      <b>Abstract:</b> 
+                    </p>
                   </li>
                   <li>
                     <span>128-bit Addresses for the Masses (of Memory and Devices)</span>
                     <p>Mathieu Bacou, Adam Chader (Télécom SudParis); Chandana Deshpande (Grenoble INP); Christian Fabre, César Fuguet (CEA List); Pierre Michaud (Inria); Arthur Perais (CNRS); Frédéric Pétrot (Grenoble INP); Gaël Thomas (Télécom SudParis); Eduardo Tomasi (CEA List)</p>
+                    <p class="abstract">
+                      <b>Abstract:</b> 
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -399,14 +441,23 @@
                   <li>
                     <span>Building Next-Generation Software-Defined Data Centers with Network-Storage Co-Design</span>
                     <p>Benjamin Reidys, Jian Huang (UIUC)</p>
+                    <p class="abstract">
+                      <b>Abstract:</b> 
+                    </p>
                   </li>
                   <li>
                     <span>Don't Let Your LEO Edge Fade at Night</span>
                     <p>Vaibhav Bhosale, Ketan Bhardwaj, Ada Gavrilovska (Georgia Institute of Technology)</p>
+                    <p class="abstract">
+                      <b>Abstract:</b> 
+                    </p>
                   </li>
                   <li>
                     <span>Fine-Grain Slicing of Edge Cloud Servers for Radio Workloads</span>
                     <p>Emadeldin Mazied, Dimitrios Nikolopoulos, Scott Midkiff (Virginia Tech)</p>
+                    <p class="abstract">
+                      <b>Abstract:</b> 
+                    </p>
                   </li>
                 </ul>
               </div>
