@@ -830,14 +830,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #schedule .schedule-item .speaker-name {
   font-style: italic;
-  color: #19328e;
+  color: #152b79;
   font-weight: normal;
   font-size: 16px;
 }
 
 #schedule .schedule-item .speaker-name a {
   font-style: italic;
-  color: #19328e;
+  color: #152b79;
 }
 
 #schedule .schedule-item p a:hover {
@@ -863,6 +863,11 @@ h1, h2, h3, h4, h5, h6 {
   border-collapse: collapse;
 }
 
+#schedule .schedule-item .abstract p {
+  /* font-family: "Open Sans", Arial, Helvetica, sans-serif; */
+  font-style: normal;
+}
+
 #schedule .schedule-item ul li span {
   font-size: 18px;
   font-weight: 600;
@@ -879,7 +884,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: normal;
   margin-bottom: 5px;
-  color: #0e1b4d;
+  color: #152b79;
 }
 
 #schedule .schedule-item .keynote-title {
