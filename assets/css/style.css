@@ -874,23 +874,27 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-#schedule .schedule-item ul li span {
+#schedule .schedule-item ul li .paper-title {
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   color: #0e1b4d;
+  float: left;
+  position: relative;
+  max-width: calc(100% - 5rem);
 }
 
 /* #schedule .schedule-item ul li i {
   font-weight: normal;
 } */
 
-#schedule .schedule-item ul li p {
+#schedule .schedule-item ul li .paper-authors {
   font-size: 16px;
   font-style: italic;
   font-weight: normal;
   margin-bottom: 5px;
   color: #152b79;
+  clear: both;
 }
 
 #schedule .schedule-item .keynote-title {
@@ -899,6 +903,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
   padding-bottom: 5px;
   color: #0e1b4d;
+}
+
+#schedule .schedule-item .paper-metadata {
+  font-size: 18px;
+  float: right;
+  position: relative;
+  padding-right: 10px;
+}
+
+#schedule .schedule-item .paper-metadata a {
+  color: #0e1b4d;
+}
+#schedule .schedule-item .paper-metadata a:hover {
+  color: #152b79;
 }
 
 /*--------------------------------------------------------------
