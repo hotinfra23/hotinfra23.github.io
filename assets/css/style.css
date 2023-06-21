@@ -912,6 +912,19 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 10px;
 }
 
+#schedule .schedule-item .slides-link {
+  /* background-color: lighgrey; */
+  padding-top: 4px;
+}
+
+#schedule .schedule-item .slides-link a {
+  color: #0e1b4d;
+}
+
+#schedule .schedule-item .slides-link a:hover {
+  color: #152b79;
+}
+
 #schedule .schedule-item .paper-metadata a {
   color: #0e1b4d;
 }
