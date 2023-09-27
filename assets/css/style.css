@@ -991,6 +991,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
+.gslide-image img.zoomable {
+  pointer-events: none;
+  cursor: default;
+}
+
 #venue .schedule-item {
   border-bottom: 1px solid #cad4f6;
   padding-top: 15px;
